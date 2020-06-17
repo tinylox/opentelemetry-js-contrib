@@ -10,7 +10,7 @@ import {
   } from '@opentelemetry/web';
 
 
-export class meterDocumentLoad extends BaseMetricPlugin<unknown> {
+export class MeterDocumentLoad extends BaseMetricPlugin<unknown> {
     constructor(config: MetricPluginConfig = {}) {
         super('@opentelemetry/plugin-document-load');
         this._onDocumentLoaded = this._onDocumentLoaded.bind(this);
