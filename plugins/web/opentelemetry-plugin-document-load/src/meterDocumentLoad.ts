@@ -18,7 +18,7 @@ export class meterDocumentLoad extends BaseMetricPlugin<unknown> {
     }
 
     private _onDocumentLoaded() {
-        // Timeout is needed as load event doesn't have yet the performance metrics for loadEnd.
+        // Timeout is needed as load event doesn't yet have the performance metrics for loadEnd.
         // Support for event "loadend" is very limited and cannot be used
         window.setTimeout(() => {
             this._collectPerformance();
