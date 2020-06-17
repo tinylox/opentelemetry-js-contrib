@@ -15,3 +15,4 @@
  */
 
 export * from './documentLoad';
+export * from './meterDocumentLoad';

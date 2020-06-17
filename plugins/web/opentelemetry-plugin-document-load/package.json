@@ -72,9 +72,10 @@
     "webpack-merge": "4.2.2"
   },
   "dependencies": {
-    "@opentelemetry/api": "^0.8.3",
-    "@opentelemetry/core": "^0.8.3",
-    "@opentelemetry/tracing": "^0.8.3",
-    "@opentelemetry/web": "^0.8.3"
+    "@opentelemetry/api": "../../../../opentelemetry-js/packages/opentelemetry-api/",
+    "@opentelemetry/core": "../../../../opentelemetry-js/packages/opentelemetry-core/",
+    "@opentelemetry/tracing": "../../../../opentelemetry-js/packages/opentelemetry-tracing/",
+    "@opentelemetry/web": "../../../../opentelemetry-js/packages/opentelemetry-web/",
+    "@opentelemetry/metrics": "../../../../opentelemetry-js/packages/opentelemetry-metrics/"
   }
 }
