@@ -29,7 +29,7 @@ export class MeterDocumentLoad extends BaseMetricPlugin<unknown> {
         const entries = this._getEntries();
         console.log(entries);
         const loadTimeObserver = this._meter.createObserver('document-load', {
-            description: 'Documet load time',
+            description: 'Document load time',
         });
         const loadTime = new MetricObservable();
         loadTimeObserver.setCallback((observerResult) => {
